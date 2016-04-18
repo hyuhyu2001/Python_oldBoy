@@ -3,6 +3,7 @@
 '''
 函数是功能的封装
 '''
+
 #from file import demo
 print  'demo',__name__  #运行打印也是__main__
 
@@ -23,6 +24,9 @@ if __name__ == '__main__' :  #__main__就是表示直接直接执行，而不是
     Foo()  #调用父函数，父函数再调用其他函数
 else:
     print '滚'
+
+
+
 
 
     
