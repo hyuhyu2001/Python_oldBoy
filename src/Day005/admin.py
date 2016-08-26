@@ -4,7 +4,7 @@
 '''
 三层架构之model层和UI层
 '''
-from utility.sql_helper import MySqlHelper #把utility模块下sql_helper文件中的MySqlHelper类导入进来
+from sql_helper import MySqlHelper #把utility模块下sql_helper文件中的MySqlHelper类导入进来
 
 class Admin(object):
     
